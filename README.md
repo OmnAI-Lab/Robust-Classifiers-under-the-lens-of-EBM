@@ -21,9 +21,22 @@ Welcome to the official GitHub repository for our ECCV 2024 paper, "Shedding Mor
 This work reinterprets a robust discriminative classifier as Energy-based Model (EBM) and offer a new take on the dynamics of adversarial training.  Our research introduces novel theoretical and practical insights demonstrating how analyzing the energy dynamics of adversarial training (AT) enhances our understanding. We also present a instance reweighting scheme, that weights samples based on their energy while adversarial training, thereby improving the model's robustness. This project also explores the generative capabilities of robust classifiers under the lens of energy-based models (EBMs). We demonstrate that robust classifiers exhibit varying intensities and qualities in their generative capabilities. Furthermore, we propose a straightforward method to enhance this capability.
 
 
+<div align="center"">
+  <img src="static/wang2023.gif" alt="GIF">
+  <div style="font-style: italic; margin-top: 10px;">
+    Generating images with an adversarially trained model.
+  </div>
+  <br> </div>
+
 <div align="center">
-    <img src="static/wang2023.gif" alt="GIF">
+  <img src="static/SAT_C10_0xurlild (1).gif" alt="SAT_C10" style="margin: 10px; width: 300px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="static/TRADES_C10_5dpknnv6 (1).gif" alt="TRADES_C10" style="margin: 10px; width: 300px;">
+  <div style="text-align: center;">
+    <div style="font-style: italic; margin-top: 5px;">Visualization of the dynamics of the changes in joint energy and marginal energy during adversarial training. The left plot corresponds to SAT, while the right plot illustrates TRADES. For a better understanding, refer to Fig. 1 (b,c,d) in the paper.</div>
+  </div>
 </div>
+
+
 
 
 ## Environment settings and libraries we used in our experiments

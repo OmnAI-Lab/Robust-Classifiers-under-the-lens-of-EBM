@@ -22,7 +22,7 @@ This work reinterprets a robust discriminative classifier as Energy-based Model 
 
 
 <div align="center">
-    <img src="image_generation/video.gif" alt="GIF">
+    <img src="static/wang2023.gif" alt="GIF">
 </div>
 
 

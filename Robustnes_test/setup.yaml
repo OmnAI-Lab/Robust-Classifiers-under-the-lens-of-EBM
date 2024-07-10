@@ -1,0 +1,23 @@
+custom_model: True
+custom_model_folder: '/adv_trained_models'
+custom_model_path: '../robustbenchmaster/robustbench/model_zoo/architectures/mirza_resnet'
+model_name: ['']# list of names of the models
+
+attack_type: ['autoattack']
+cw_targeted: False
+cw_steps: 100
+cw_binary_search_steps: 5
+cw_debug: True
+cw_data_dir: './cw_data_dir'
+cw_save: True
+cw_ex: 10000
+
+threat_model: ['Linf']
+n_ex: 26032
+
+dataset: ['cifar100']
+num_classes: 10
+
+to_disk: True
+batch_size: 128
+eps: 8

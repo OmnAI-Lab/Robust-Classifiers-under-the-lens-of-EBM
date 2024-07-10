@@ -9,7 +9,7 @@
 
 
 <a href=''><img src='https://img.shields.io/badge/Project-Page-red'></a>
-<a href=''><img src='https://img.shields.io/badge/Technical-Report-blue'></a>
+<a href='https://arxiv.org/pdf/2407.06315'><img src='https://img.shields.io/badge/Technical-Report-blue'></a>
 
 
 Welcome to the official GitHub repository for our ECCV 2024 paper, "Shedding More Light on Robust Classifiers Under the Lens of Energy-Based Models". This repository contains the implementation of the methods and experiments discussed in the paper, providing all the necessary resources to reproduce our results and explore the techniques we developed.

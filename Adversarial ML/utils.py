@@ -42,7 +42,8 @@ def adv_train(args, model, device, train_loader, optimizer,scheduler, epoch):
         scheduler.step()
     
         total_loss = total_loss + loss.item()
-
+        
+    total_loss/= len(train_loader)
     return total_loss
 
 

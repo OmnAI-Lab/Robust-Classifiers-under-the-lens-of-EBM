@@ -29,10 +29,10 @@ This work reinterprets a robust discriminative classifier as Energy-based Model 
   <br> </div>
 
 <div align="center">
-  <img src="static/SAT_C10_0xurlild (1).gif" alt="SAT_C10" style="margin: 10px; width: 300px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="static/TRADES_C10_5dpknnv6 (1).gif" alt="TRADES_C10" style="margin: 10px; width: 300px;">
+  <img src="static/energy_animation_SAT.gif" alt="SAT_C10" style="margin: 10px; width: 300px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="static/energy_animation_TRADES.gif" alt="TRADES_C10" style="margin: 10px; width: 300px;">
   <div style="text-align: center;">
-    <div style="font-style: italic; margin-top: 5px;">Visualization of the dynamics of the changes in joint energy and marginal energy during adversarial training. The left plot corresponds to SAT, while the right plot illustrates TRADES. For a better understanding, refer to Fig. 1 (b,c,d) in the paper.</div>
+    <div style="font-style: italic; margin-top: 5px;">Visualization of the dynamics of the changes in joint energy and marginal energy of original samples during adversarial training. The slope of arrows show the Cross-Entropy loss of the corresponding adversarial samples. The left plot corresponds to SAT, while the right plot illustrates TRADES. For a better understanding, refer to Fig. 1 (b,c,d) in the paper.</div>
   </div>
 </div>
 

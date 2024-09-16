@@ -14,9 +14,6 @@
 
 Welcome to the official GitHub repository for our ECCV 2024 paper, "Shedding More Light on Robust Classifiers Under the Lens of Energy-Based Models". This repository contains the implementation of the methods and experiments discussed in the paper, providing all the necessary resources to reproduce our results and explore the techniques we developed.
 </div>
-
-
-
 ## About the project
 This work reinterprets a robust discriminative classifier as Energy-based Model (EBM) and offer a new take on the dynamics of adversarial training.  Our research introduces novel theoretical and practical insights demonstrating how analyzing the energy dynamics of adversarial training (AT) enhances our understanding. We also present a instance reweighting scheme, that weights samples based on their energy while adversarial training, thereby improving the model's robustness. This project also explores the generative capabilities of robust classifiers under the lens of energy-based models (EBMs). We demonstrate that robust classifiers exhibit varying intensities and qualities in their generative capabilities. Furthermore, we propose a straightforward method to enhance this capability.
 
@@ -113,10 +110,16 @@ Once defined the initial sample the algorith applies Stochastic Gradient Langevi
   <img width="400" src="static/SGLD_momentum.png">
 </p>
 
-## Video Tutorial
+## Video Tutorials
 
-The following talk at [USC Information Sciences Institute](https://www.isi.edu/) by Iacopo Masi discusses robustness and generative modeling, and includes work presented in our paper:
-[![WATCH](https://img.youtube.com/vi/dY9d2oRkU3w/maxresdefault.jpg)](https://www.youtube.com/watch?v=dY9d2oRkU3w)
+### Short Video: Overview of Our Research
+Here is a short video summarizing the key points of our paper:
+[![Watch the short video](https://img.youtube.com/vi/3b4hNcjgrPw/maxresdefault.jpg)](https://www.youtube.com/watch?v=3b4hNcjgrPw)
+
+### Extended Talk: Robustness and Generative Modeling
+This talk, delivered at the [USC Information Sciences Institute](https://www.isi.edu/) by Iacopo Masi, dives into robustness, generative modeling, and includes research from our paper:
+[![Watch the full talk](https://img.youtube.com/vi/dY9d2oRkU3w/maxresdefault.jpg)](https://www.youtube.com/watch?v=dY9d2oRkU3w)
+
 
 ## Reference
 ```

@@ -12,7 +12,7 @@
 <a href='https://arxiv.org/pdf/2407.06315'><img src='https://img.shields.io/badge/Technical-Report-blue'></a>
 
 
-Welcome to the official GitHub repository for our ECCV 2024 paper, "Shedding More Light on Robust Classifiers Under the Lens of Energy-Based Models". This repository contains the implementation of the methods and experiments discussed in the paper, providing all the necessary resources to reproduce our results and explore the techniques we developed.
+Welcome to the official GitHub repository for our ECCV 2024 paper, "Shedding More Light on Robust Classifiers Under the Lens of Energy-Based Models". This repository contains the implementation of the methods and experiments discussed in the [paper](https://arxiv.org/pdf/2407.06315) , providing all the necessary resources to reproduce our results and explore the techniques we developed.
 </div>
 ## About the project
 This work reinterprets a robust discriminative classifier as Energy-based Model (EBM) and offer a new take on the dynamics of adversarial training.  Our research introduces novel theoretical and practical insights demonstrating how analyzing the energy dynamics of adversarial training (AT) enhances our understanding. We also present a instance reweighting scheme, that weights samples based on their energy while adversarial training, thereby improving the model's robustness. This project also explores the generative capabilities of robust classifiers under the lens of energy-based models (EBMs). We demonstrate that robust classifiers exhibit varying intensities and qualities in their generative capabilities. Furthermore, we propose a straightforward method to enhance this capability.
@@ -124,9 +124,9 @@ This talk, delivered at the [USC Information Sciences Institute](https://www.isi
 ## Reference
 ```
 @inproceedings{mirza2024shedding, 
-  author = {Mirza Mujtaba Hussain, Maria Rosaria Briglia, Senad Beadini, Iacopo Masi}, 
-  title = {Shedding More Light on Robust Classifiers under the lens of Energy-based Models}, 
-  booktitle = {European Conference on Computer Vision},
-  year = {2024}
+    title = {Shedding More Light on Robust Classifiers under the lens of Energy-based Models}, 
+    author = {Mujtaba Hussain, Mirza and Maria Rosaria, Briglia and Senad, Beadini and Iacopo, Masi},  
+    booktitle = {European Conference on Computer Vision},
+    year = {2024}
 }
 ```
